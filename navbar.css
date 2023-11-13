@@ -1,0 +1,48 @@
+/* style.css */
+
+.nav_bar {
+    background-color: #333;
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+    width: 90%;
+    position: absolute;
+    left: 5%;
+    top: 1%;
+    border-radius: 15px;
+    transition: background-color 0.3s ease; /* Ajout de la transition ici */
+}
+
+.nav_bar:hover {
+    background-color: #555; /* Couleur de survol */
+}
+
+.nav_bar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.nav_bar a:hover {
+    border-bottom: 2px solid white;
+}
+
+.login-btn {
+    background-color: aliceblue;
+    cursor: pointer;
+    width: 90%;
+    height: 2rem;
+    font-size: medium;
+    font-weight: 700;
+    border-radius: 15px;
+    transition: background-color 0.3s ease; /* Ajout de la transition ici */
+}
+
+.login-btn:hover {
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+}
